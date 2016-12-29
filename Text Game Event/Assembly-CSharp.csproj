@@ -48,6 +48,7 @@
      <Compile Include="Assets\Character.cs" />
      <Compile Include="Assets\DoList.cs" />
      <Compile Include="Assets\Manager.cs" />
+     <None Include="Assets\Resources\Dialogues.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

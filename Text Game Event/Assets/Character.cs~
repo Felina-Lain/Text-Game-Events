@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.IO;
 
 public enum WeaponsGroup{Sword, Axe, Stick, Staff}
 public enum ArmorGroup{Cloth, Leather, Mail}
@@ -33,4 +34,19 @@ public class Character{
 		intelligence -= 1;
 	}
 
+	public void Mage(){
+
+		intelligence +=5;
+
+	}
+	public void War(){
+
+		strength +=5;
+
+	}
+	public void Rogue(){
+
+		speed +=5;
+
+	}
 }
