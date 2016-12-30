@@ -67,7 +67,7 @@ public class DoList : MonoBehaviour {
 				break;
 		}
 
-		_activities -= 1;
+		if(_activities >0){ _activities -= 1;}
 	}
 
 	//end game

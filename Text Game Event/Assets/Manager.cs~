@@ -67,22 +67,22 @@ public class Manager : MonoBehaviour {
 
 			_text.text = _lines[3];
 
-			_execute.interactable = true;
-			_weapon.interactable = true;
-			_armor.interactable = true;
+			_execute.gameObject.SetActive(true);
+			_weapon.gameObject.SetActive(true);
+			_armor.gameObject.SetActive(true);
 
-			Def.interactable = false;
-			Conf.interactable = false;
-			endD.interactable = false;
-			GetComponent<DoList>()._dropdowns.interactable = false;
+			Def.gameObject.SetActive(false);
+			Conf.gameObject.SetActive(false);
+			endD.gameObject.SetActive(false);
+			GetComponent<DoList>()._dropdowns.gameObject.SetActive(false);
 
 		}
 
 		if(dragface){
 
-			_execute.interactable = false;
-			_weapon.interactable = false;
-			_armor.interactable = false;
+			_execute.gameObject.SetActive(false);
+			_weapon.gameObject.SetActive(false);
+			_armor.gameObject.SetActive(false);
 
 		     if(GetComponent<DoList>()._myHero.strength < 0 ||GetComponent<DoList>()._myHero.intelligence  < 0 || GetComponent<DoList>()._myHero.speed < 0){
 		     
@@ -105,7 +105,7 @@ public class Manager : MonoBehaviour {
 				
 			}
 
-			newJ.interactable = true;
+			newJ.gameObject.SetActive(true);
 		}
 	}
 
