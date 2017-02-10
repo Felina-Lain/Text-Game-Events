@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{8E50CDEA-F11E-C0BA-3B07-6110588A03D1}") = "Text Game Event", "Assembly-CSharp.csproj", "{BF5D1F52-6302-9537-53F4-F16D1F99408E}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text Game Event", "Assembly-CSharp.csproj", "{BF5D1F52-6302-9537-53F4-F16D1F99408E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
